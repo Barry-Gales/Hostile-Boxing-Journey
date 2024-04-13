@@ -1,6 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<Title>Wolf logo</Title>
-<img src="/wolf-removebg.png">
+<head> 
+    <meta charset="UTF-8">
+    <title>My Boxing Journey</title>
+    <style>
+        @keyframes gradientTransition{
+
+        }
+        body {
+            font-size: xx-large;
+            background-image:url("Images/wolf-removebg.png"),linear-gradient(to right, black 45%,white);
+            background-repeat:no-repeat, repeat-y;
+            background-position:center;
+            height:100vh;
+            background-size:25%,500%;
+        }
+
+        h1 {
+            font-family: 'Perfect Dark (BRK)', serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-image:linear-gradient(to right, white 35%,black);
+            background-clip:text;
+            color:transparent;
+            gap:20px;
+         }
+         .navigation-bar ul{
+            display:flex;
+            flex-direction:row;
+            list-style:none;
+            gap:50px;
+            font-family:'Perfect Dark (BRK)';
+            margin:0;
+            padding:0;
+            justify-content:center;
+            text-align:center;
+            align-self: center;
+         }
+         a {
+            background-clip:text;
+    /* Separate background-image from background */
+    background-image: linear-gradient(to left, black, white);
+    /* Remove the background shorthand and specify other background properties if needed */
+    color: transparent; /* Make text transparent to reveal the gradient background */
+    text-decoration: none;
+}
+.FirstTwo{
+    background-clip:text;
+    /* Separate background-image from background */
+    background-image: linear-gradient(to left, white 100%, black);
+    /* Remove the background shorthand and specify other background properties if needed */
+    color: transparent; /* Make text transparent to reveal the gradient background */
+    text-decoration: none
+}
+.Videos{
+    background-clip:text;
+    /* Separate background-image from background */
+    background-image: linear-gradient(to left, black);
+    /* Remove the background shorthand and specify other background properties if needed */
+    color: transparent; /* Make text transparent to reveal the gradient background */
+    text-decoration: none
+}
+.I{
+    background-clip:text;
+    background-image:linear-gradient(black, white);
+    color:transparent;
+}
+.Contact{
+    background-clip:text;
+    /* Separate background-image from background */
+    background-image: linear-gradient(to right, white 80%, black);
+    /* Remove the background shorthand and specify other background properties if needed */
+    color: transparent; /* Make text transparent to reveal the gradient background */
+    text-decoration: none;
+}
+a:hover{
+    color:black
+}
+
+
+            
+         
+    </style>
+</head>
+<body>
+    <h1><span class="My">My</span> <span class="boxin">boxing</span> <span class="Journey">Journey</span></h1>
+    <div class="navigation-bar">
+        <ul>
+            <li><a class="FirstTwo" href="./index.html">Home</a></li>
+            <li><a class="FirstTwo"href="./About.html">About</a></li>
+            <li><a class="Videos"href="./Videos.html">V<span class="I">i</span>deos</a></li>
+            <li><a class="Contact" href="./Contact.html">Contact Me</a></li>
+        </ul>
+    </div>
+</body>
+</html>
