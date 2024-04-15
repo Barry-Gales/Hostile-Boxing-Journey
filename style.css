@@ -87,8 +87,4 @@ a:active{
     .navigation-bar{
         display:none;
 }
-.navigation-bar ul{
-    display:block;
-    cursor:pointer;
-}
 }
