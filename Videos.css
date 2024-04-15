@@ -1,0 +1,21 @@
+.Mittwork{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        margin-top:100px;
+        border:transparent;
+        grid-column:1;
+    }
+    .Mittwork2{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        margin-top:100px;
+        border:transparent;
+        grid-column:2;
+    }
+    .grid-container{
+        display:grid;
+        grid-template-columns:50% 50%;
+        gap:10px;
+    }

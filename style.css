@@ -20,7 +20,7 @@ body {
             -webkit-text-fill-color: transparent;
          }
  
-         .navigation-bar ul{
+         #navigation-bar ul{
             display:flex;
             flex-direction:row;
             list-style:none;
@@ -47,7 +47,7 @@ body {
     /* Remove the background shorthand and specify other background properties if needed */
     color: transparent; /* Make text transparent to reveal the gradient background */
     text-decoration: none;
-    animation:gradientAnimation 1s no;
+    animation:gradientAnimation 5s infinite alternate-reverse ;
 }
 .Videos{
     background-clip:text;
