@@ -1,0 +1,94 @@
+body {
+            font-size: xx-large;
+            background-image:url("Images/wolf-removebg.png"),linear-gradient(to right, black,white);
+            background-repeat:no-repeat, repeat-y;
+            background-position:center;
+            height:100vh;
+            background-size:60%, 100%;
+        }
+
+        h1 {
+            font-family: 'Perfect Dark (BRK)', serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-image:radial-gradient(circle, white,black);
+            background-clip:text;
+            color:transparent;
+            gap:20px;
+            animation: gradientAnimation 5s infinite ;
+            -webkit-text-fill-color: transparent;
+         }
+ 
+         #navigation-bar ul{
+            display:flex;
+            flex-direction:row;
+            list-style:none;
+            gap:50px;
+            font-family:'Perfect Dark (BRK)';
+            margin:0;
+            padding:0;
+            justify-content:center;
+            text-align:center;
+            align-self: center;
+         }
+         a {
+            background-clip:text;
+    /* Separate background-image from background */
+    background-image: linear-gradient(to left, black, white);
+    /* Remove the background shorthand and specify other background properties if needed */
+    color: transparent; /* Make text transparent to reveal the gradient background */
+    text-decoration: none;
+}
+.FirstTwo{
+    background-clip:text;
+    /* Separate background-image from background */
+    background-image: linear-gradient(to left, white , black);
+    /* Remove the background shorthand and specify other background properties if needed */
+    color: transparent; /* Make text transparent to reveal the gradient background */
+    text-decoration: none;
+    animation:gradientAnimation 5s infinite alternate-reverse ;
+}
+.Videos{
+    background-clip:text;
+    /* Separate background-image from background */
+    background-image: linear-gradient(to left,white, black);
+    /* Remove the background shorthand and specify other background properties if needed */
+    color: transparent; /* Make text transparent to reveal the gradient background */
+    text-decoration: none;
+    animation:gradientAnimation 5s infinite alternate-reverse;
+}
+.Contact{
+    background-clip:text;
+    /* Separate background-image from background */
+    background-image: linear-gradient(to right, white, black);
+    /* Remove the background shorthand and specify other background properties if needed */
+    color: transparent; /* Make text transparent to reveal the gradient background */
+    text-decoration: none;
+    animation:gradientAnimation 5s infinite alternate-reverse;
+}
+a:hover{
+    background-image:linear-gradient(white, black);
+    animation:gradientAnimation 5s infinite ease-in-out
+
+}
+a:active{
+    background-image:radial-gradient(white, black);
+}
+@keyframes gradientAnimation {
+    0% {
+        background-size:50% 50%; /* Initial size */
+    }
+    100% {
+        background-size:500% 500%; /* Increased size */
+    }
+}
+@media(max-width:850px){
+    .navigation-bar{
+        display:none;
+}
+.navigation-bar ul{
+    display:block;
+    cursor:pointer;
+}
+}

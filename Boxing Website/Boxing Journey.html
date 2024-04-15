@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <title>My Boxing Journey</title>
+    <style>
+        body {
+            font-size: xx-large;
+            background-image:url("Images/wolf-removebg.png"),linear-gradient(to right, black 45%,white);
+            background-repeat:no-repeat, repeat-y;
+            background-position:center;
+            height:100vh;
+        }
+
+        h1 {
+            font-family: 'Perfect Dark (BRK)', serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: transparent;
+            background-image: linear-gradient(to right, black 45%, white);
+            background-clip: text;
+        }
+
+        .My {
+            background-image: linear-gradient(to right black 45%, white);
+            background-clip: text;
+            color: transparent;
+            margin-right: 3%;
+        }
+
+        .Journey {
+            background-image: linear-gradient(white, black);
+            background-clip: text;
+            color: transparent;
+            margin-left: 3%;
+        }
+
+        ul {
+            font-family: 'Perfect Dark (BRK)', serif;
+            display: inline-flex;
+            gap: 40px;
+            justify-content: center;
+            align-items: center;
+            list-style-type: none; /* Remove default list styles */
+            padding: 0; /* Remove default padding */
+        }
+
+        ul a {
+            background-image: linear-gradient(to right, white, black);
+            background-clip: text;
+            color: transparent;
+            text-decoration: none; /* Remove default underline */
+            transition: background-position 1.0s ease; /* Add transition effect */
+            background-size: 200% auto; /* Set initial background size */
+            background-position: 100% 0; /* Set initial background position */
+        }
+
+        ul a:hover {
+            color: white; /* Change text color on hover */
+            background-position: 0 0; /* Move background position to reveal gradient */
+        }
+        .navigation-bar{
+            text-align:center;
+        }
+        .G{
+            background-image:linear-gradient(black, white);
+            background-clip:text;
+        }
+        .boxin{
+            background-image:linear-gradient(to right, black 8,white);
+            background-clip:text;
+
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1><span class="My">My</span> <span class="boxin">boxin</span><span class="G">g</span> <span class="Journey">Journey</span></h1>
+    <div class="navigation-bar">
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./About.html">About</a></li>
+            <li><a href="./Videos.html">Videos</a></li>
+            <li><a href="./Contact.html">Contact Me</a></li>
+        </ul>
+    </div>
+</body>
+</html>
