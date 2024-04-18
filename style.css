@@ -57,7 +57,7 @@ body {
 .Videos{
     background-clip:text;
     /* Separate background-image from background */
-    background-image: linear-gradient(to left,white, black);
+    background-image: linear-gradient(to left,black, white);
     /* Remove the background shorthand and specify other background properties if needed */
     color: transparent; /* Make text transparent to reveal the gradient background */
     text-decoration: none;
