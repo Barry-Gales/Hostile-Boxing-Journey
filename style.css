@@ -1,6 +1,8 @@
 @font-face {
   font-family: 'Perfect Dark (BRK)', serif;
   src: url('pdark.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
 }
 
 body {
