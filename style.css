@@ -1,8 +1,6 @@
 @font-face {
-  font-family: 'Perfect Dark (BRK)', serif;
+  font-family:'Perfect Dark(BRK)', serif;
   src: url('pdark.ttf') format('truetype');
-font-weight: normal;
-font-style: normal;
 }
 
 body {
@@ -15,7 +13,7 @@ body {
         }
 
         h1 {
-            font-family: 'Perfect Dark (BRK)', serif;
+            font-family:'Perfect Dark(BRK)', serif;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -32,7 +30,7 @@ body {
             flex-direction:row;
             list-style:none;
             gap:50px;
-            font-family:'Perfect Dark (BRK)';
+            font-family:'Perfect Dark(BRK)';
             margin:0;
             padding:0;
             justify-content:center;
