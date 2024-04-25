@@ -51,6 +51,7 @@ body {
     /* Remove the background shorthand and specify other background properties if needed */
     color: transparent; /* Make text transparent to reveal the gradient background */
     text-decoration: none;
+    color:blue;
 }
 .FirstTwo{
     background-clip:text;
@@ -87,11 +88,6 @@ a:hover{
 a:active{
     background-image:radial-gradient(white, black);
     color:red;
-}
-a:visited{
-color:blue;
-background-color:blue;
-
 }
 .Embrace{
    float:left;
