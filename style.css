@@ -44,7 +44,7 @@ body {
             text-align:center;
             align-self: center;
          }
-         a:visited{
+        .FirstTwo, a:visited{
             background-clip:text;
     /* Separate background-image from background */
     background-image: linear-gradient(to left, black, white);
