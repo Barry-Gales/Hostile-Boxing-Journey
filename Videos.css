@@ -32,6 +32,7 @@
         color:transparent;
         animation: gradientAnimation 5s infinite ;
         -webkit-text-fill-color: transparent;
+        font-family: 'Perfect Dark (BRK)','Arial',serif;
         }
     .Sparring{
         display:flex;
