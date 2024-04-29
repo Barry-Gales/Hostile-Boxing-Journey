@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Perfect Dark (BRK)','Arial',serif;
+    src: url('./Perfect Dark(BRK)');
+}
+
 .Mittwork{
         display:flex;
         justify-content:center;
@@ -19,3 +24,50 @@
         grid-template-columns:50% 50%;
         gap:10px;
     }
+    .Videotitle{
+        display:flex;
+        justify-content:center;
+        background-image:radial-gradient(circle, white,black);
+        background-clip:text;
+        color:transparent;
+        animation: gradientAnimation 5s infinite ;
+        -webkit-text-fill-color: transparent;
+        }
+    .Sparring{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        margin-top:100px;
+        border:transparent;
+        grid-column:1;
+    }
+    .Sparring2{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        margin-top:100px;
+        border:transparent;
+        grid-column:2;
+        }
+    span{
+        display:flex;
+        justify-content:center;
+        background-image:radial-gradient(circle, white,black);
+        background-clip:text;
+        color:transparent;
+        animation: gradientAnimation 5s infinite ;
+    }
+    @media(max-width:850px){
+        .Videotitle h1{
+            font-size: calc(1em + 2vw);
+        }
+        .grid-container{
+            display:flex;
+            flex-direction:column;
+        }
+        
+
+
+
+    }
+

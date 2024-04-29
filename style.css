@@ -1,131 +1,130 @@
+
 @font-face {
-    font-family: 'Perfect Dark (BRK)';
+    font-family:'Perfect Dark (BRK)';
     src: url('pdark.ttf') format('truetype');
-
-}
-
-
-body {
-            font-size: xx-large;
-            background-image:url("Images/wolf-removebg.png"),linear-gradient(to right, black,white);
-            background-repeat:no-repeat, repeat-y;
-            background-position:center;
-            height:100vh;
-            
-            background-size:55%, 100%;
-        
-           
-            
-        }
-
-        h1 {
-            font-family: 'Perfect Dark (BRK)',Arial, serif;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background-image:radial-gradient(circle, white,black);
-            background-clip:text;
-            color:transparent;
-            gap:20px;
-            animation: gradientAnimation 5s infinite ;
-            -webkit-text-fill-color: transparent;
-            font-size:300%;
-         }
- 
-         #navigation-bar ul{
-            display:flex;
-            flex-direction:row;
-            list-style:none;
-            gap:50px;
-            font-family:'Perfect Dark (BRK)';
-            margin:0;
-            padding:0;
-            justify-content:center;
-            text-align:center;
-            align-self: center;
-         }
-        .FirstTwo, a:visited{
-            background-clip:text;
-    /* Separate background-image from background */
-    background-image: linear-gradient(to left, black, white);
-    /* Remove the background shorthand and specify other background properties if needed */
-    color: transparent; /* Make text transparent to reveal the gradient background */
-    text-decoration: none;
+  }
+  
+  body {
+              font-size: xx-large;
+              background-image:url("Images/wolf-removebg.png"),linear-gradient(to right, black,white);
+              background-repeat:no-repeat, repeat-y;
+              background-position:center;
+              height:100vh;
+              background-size:55%, 100%;
+              
+          }
+  
+          h1 {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              background-image:radial-gradient(circle, white,black);
+              background-clip:text;
+              color:transparent;
+              gap:20px;
+              animation: gradientAnimation 5s infinite ;
+              -webkit-text-fill-color: transparent;
+              font-size:300%;
+              font-family: 'Perfect Dark (BRK)',Arial, serif;
+           }
+   
+           #navigation-bar ul{
+              display:flex;
+              flex-direction:row;
+              list-style:none;
+              gap:50px;
+              margin:0;
+              padding:0;
+              justify-content:center;
+              text-align:center;
+              align-self: center;
+              font-family:'Perfect Dark (BRK)'
+           }
+           a {
+              background-clip:text;
+      /* Separate background-image from background */
+      background-image: linear-gradient(to left, black, white);
+      /* Remove the background shorthand and specify other background properties if needed */
+      color: transparent; /* Make text transparent to reveal the gradient background */
+      text-decoration: none;
+  }
+  .FirstTwo:visited{
     color:blue;
-}
-.FirstTwo{
-    background-clip:text;
-    /* Separate background-image from background */
-    background-image: linear-gradient(to left, white , black);
-    /* Remove the background shorthand and specify other background properties if needed */
-    color: transparent; /* Make text transparent to reveal the gradient background */
-    text-decoration: none;
-    animation:gradientAnimation 5s infinite alternate-reverse;
-}
-.Videos{
-    background-clip:text;
-    /* Separate background-image from background */
-    background-image: linear-gradient(to left,white, black);
-    /* Remove the background shorthand and specify other background properties if needed */
-    color: transparent; /* Make text transparent to reveal the gradient background */
-    text-decoration: none;
-    animation:gradientAnimation 5s infinite alternate-reverse;
-}
-.Contact{
-    background-clip:text;
-    /* Separate background-image from background */
-    background-image: linear-gradient(to right,black, white);
-    /* Remove the background shorthand and specify other background properties if needed */
-    color: transparent; /* Make text transparent to reveal the gradient background */
-    text-decoration: none;
-    animation:gradientAnimation 5s infinite alternate-reverse;
-}
-a:hover{
-    background-image:linear-gradient(white, black);
-    animation:gradientAnimation 5s infinite ease-in-out
+ }
+  .FirstTwo{
+      background-clip:text;
+      /* Separate background-image from background */
+      background-image: linear-gradient(to left, white , black);
+      /* Remove the background shorthand and specify other background properties if needed */
+      color: transparent; /* Make text transparent to reveal the gradient background */
+      text-decoration: none;
+      animation:gradientAnimation 5s infinite alternate-reverse ;
+  }
+  .Videos{
+    display:inline-flex;
+      background-clip:text;
+      /* Separate background-image from background */
+      background-image: linear-gradient(to left,white, black);
+      /* Remove the background shorthand and specify other background properties if needed */
+      color: transparent; /* Make text transparent to reveal the gradient background */
+      text-decoration: none;
+      animation:gradientAnimation 5s infinite alternate-reverse;
+  }
+  .Contact{
+      background-clip:text;
+      /* Separate background-image from background */
+      background-image: linear-gradient(to right, black, white);
+      /* Remove the background shorthand and specify other background properties if needed */
+      color: transparent; /* Make text transparent to reveal the gradient background */
+      text-decoration: none;
+      animation:gradientAnimation 5s infinite alternate-reverse;
+  }
+  a:hover{
+      background-image:linear-gradient(white, black);
+      animation:gradientAnimation 5s infinite ease-in-out
+  
+  }
+  a:active{
+      background-image:radial-gradient(white, black);
+      color:red;
+  }
+  .Embrace{
+    float:left;
+     width:300px;
+     font-family:'Perfect Dark (BRK)';
+     background-clip:text;
+     color:transparent;
+     background-image:linear-gradient(to bottom,red, white);
+     animation:gradientAnimation 5s infinite;
+     font-size:125%;
+ }
+ .Spirit{
+     float:right;
+     flex-direction:column;
+     width:300px;
+     font-family:'Perfect Dark (BRK)';
+     background-clip:text;
+     color:transparent;
+     background-image:linear-gradient(to bottom,blue, black);
+     animation:gradientAnimation 5s infinite;
+ }
+ .Footer{
+     display:flex;
+     border:solid;
+     justify-content: center;
+     align-items: center;
+ }
 
-}
-a:active{
-    background-image:radial-gradient(white, black);
-    color:red;
-}
-.Embrace{
-   float:left;
-    width:300px;
-    font-family:'Perfect Dark (BRK)';
-    background-clip:text;
-    color:transparent;
-    background-image:linear-gradient(to bottom,red, white);
-    animation:gradientAnimation 5s infinite;
-    font-size:125%;
-}
-.Spirit{
-    float:right;
-    flex-direction:column;
-    width:300px;
-    font-family:'Perfect Dark (BRK)';
-    background-clip:text;
-    color:transparent;
-    background-image:linear-gradient(to bottom,blue, black);
-    animation:gradientAnimation 5s infinite;
-}
-.Footer{
-    display:flex;
-    border:solid;
-    justify-content: center;
-    align-items: center;
-}
-h2{
-    display:flex;
-    font-family:'Perfect Dark (BRK)';
-    background-clip:text;
-    color:transparent;
-    background-image:linear-gradient(to right,white, black, white,black, black);
-    animation:gradientAnimation 5s alternate-reverse infinite;
-    justify-content:center
 
-}
-@keyframes gradientAnimation {
+  @keyframes gradientAnimation {
+      0% {
+          background-size:50% 50%; /* Initial size */
+      }
+      100% {
+          background-size:500% 500%; /* Increased size */
+      }
+  }
+  @keyframes gradientAnimation {
     0% {
         background-size:50% 50%; /* Initial size */
     }
@@ -135,9 +134,7 @@ h2{
 
     }
 @media(max-width:850px){
-    #navigation-bar{
-        display:none;
-}
+  
 .Embrace{
     display:none;
 }
@@ -145,10 +142,11 @@ h2{
     Display:none;
 }
 #navigation-bar ul{
-    display:block;
+    display:flex;
+    flex-direction:column;
     cursor:pointer;
 }
-
+h1{
+    font-size: calc(1em + 2vw);
+  }
 }
-
-
